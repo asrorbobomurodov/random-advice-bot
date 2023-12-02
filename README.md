@@ -13,3 +13,6 @@ features
 - /relaxation: relaxation advice
 - /busywork: busywork advice
 - other text: error message
+
+##Create seetings file
+**TOKEN = 'YOUR BOT TOKEN here'**
