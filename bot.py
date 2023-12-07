@@ -31,7 +31,7 @@ while True:
         chat_id = data['message']['chat']['id']
         text = data['message']['text']
         
-        menus = ['/start', '/charity', '/sport', '/education', 
+        menus = ['/start', '/charity', '/education', 
                  '/recreational', '/social', '/diy', '/cooking', 
                  '/relaxation', '/busywork']
 
@@ -49,7 +49,6 @@ while True:
 
             dct = {
                 '/charity': answer,
-                '/sport': answer,
                 '/education': answer,
                 '/recreational': answer,
                 '/social': answer,
